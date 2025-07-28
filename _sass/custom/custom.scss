@@ -1,0 +1,12 @@
+/* Increase sidebar width */
+.sidebar {
+  width: 280px; /* 你可以改成 300px 或更宽 */
+}
+
+.sidebar.sticky {
+  width: 280px;
+}
+
+.page {
+  margin-left: 300px; /* 至少比 sidebar 宽一点，防止重叠 */
+}
