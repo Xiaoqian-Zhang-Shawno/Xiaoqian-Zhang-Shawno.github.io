@@ -11,35 +11,33 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Master of Science in Medical Imaging Technology (医学影像技术，理学硕士)  
+  * Shanghai Jiao Tong University (上海交通大学), Sep 2025 – Jul 2028 (expected)
+* Bachelor of Engineering in Biomedical Engineering (生物医学工程，工学学士)  
+  * Beihang University (北京航空航天大学), Sep 2021 – Jul 2025
+
+Research Interests
+======
+* Medical Artificial Intelligence (医疗人工智能)  
+* Multimodal Learning for Medicine (医学多模态学习)  
+* Foundation Model Fine-tuning & Deployment (大模型微调与部署)
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Research Intern, BGI Research Institute (华大研究院), Beijing, China  
+  * June 2024 – November 2024  
+  * Focused on statistical analysis, spatial processing, and segmentation of liver cell data under Salmonella infection using spatial transcriptomics 
+  * Evaluated disorganization and complexity of thymic cells across different inflammatory stages  
+  * Contributed to data preprocessing, region annotation, and image segmentation workflows for high-resolution spatiotemporal datasets  
+  * Tools: Python, R, Seurat, ImageJ, QuPath, spatial transcriptomics toolkits
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Programming: Python, C#, Bash, Git, HTML, Markdown  
+* ML/DL: PyTorch, scikit-learn, OpenCV, NumPy, Huggingface  
+* Tools: Unity, GitHub Pages, Jekyll, LaTeX  
+* Languages: Mandarin (native), English (fluent，IELTS6.0)
 
 Publications
 ======
@@ -59,6 +57,10 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Service and leadership
+Honors and Awards
 ======
-* Currently signed in to 43 different slack teams
+* Second Prize, Academic Excellence Scholarship, Beihang University (BUAA), 2021–2022 Academic Year  
+* Third Prize, 8th National Academic English Vocabulary Competition for College Students (NAEVCC), 2023  
+* Excellent Scientific Research Achievement, BUAA Scientific Research Class, Fall 2022  
+* Third Prize, 2024 National Biomedical Engineering Innovation Competition for College Students
+
