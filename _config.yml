@@ -7,12 +7,12 @@
 # server process.
 
 # Basic Site Settings
-locale                   : "en-US"
+locale                   : "zh-CN"
 site_theme               : "default"
 title                    : "Xiaoqian Zhang/Shawno"
 title_separator          : "-"
 name                     : &name "Xiaoqian Zhang"
-description              : &description "Master's Student in Medical Imaging | AI Researcher for Medicine and Healthcare | Multimodal LLMs"
+description              : &description "医学影像与医疗人工智能研究 | Multimodal Medical AI"
 url                      : https://Xiaoqian-Zhang-Shawno.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "shawnolove/Xiaoqian-Zhang-Shawno.github.io"

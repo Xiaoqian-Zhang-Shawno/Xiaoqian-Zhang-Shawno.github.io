@@ -1,48 +1,48 @@
 ---
 permalink: /
-title: "Xiaoqian Zhang who is the master's student under the supervision of Professor Jianqiao Zhou"
+title: "Xiaoqian Zhang / Shawno Zhang"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-Hi, I'm **Xiaoqian Zhang/Shawno Zhang (张啸谦)**, a master's student in *Medical Imaging Technology* at **Shanghai Jiao Tong University（SJTU）**.  
-I hold a bachelor's degree in **Biomedical Engineering** from **Beihang University (BUAA)**.
+您好！我是 **Xiaoqian Zhang (张啸谦)**，现为 **上海交通大学（SJTU）医学影像技术方向硕士研究生**，师从 **周建桥教授**。
 
-My research interest lies in the intersection of **artificial intelligence** and **healthcare**, with a current focus on:
+我本科毕业于 **北京航空航天大学（BUAA）生物医学工程专业**。目前主要关注 **人工智能 + 医疗健康** 的交叉研究，尤其是：
 
-- 🧠 **Multimodal foundation models** for medical tasks (e.g., MedGPT, MedCLIP)
-- 🩻 **Medical image analysis**, especially in radiology and ultrasound
-- 🤖 **Large model fine-tuning & deployment (LLM Engineering)**
-- 🏥 AI-empowered clinical decision systems and cognitive diagnostics
+- 医学影像分析（超声、病理等）
+- 多模态医学基础模型与大模型微调
+- 计算病理中的多实例学习（MIL）
+- 面向临床应用的可信医疗 AI 系统
 
-I aim to bridge the gap between **medical imaging data**, **neural networks**, and **clinical utility**, ultimately contributing to trustworthy and efficient medical AI systems.
+---
 
-📫 You can explore my:
-- 🔗 [Projects](../portfolio)
-- 📚 [Publications](../publications)
-- 📄 [CV (PDF)](../files/cv.pdf)
+### 🔬 研究方向
 
-🔗 Find me on:
-- [GitHub](https://github.com/shawnolove)
-- [Google Scholar](https://scholar.google.com/citations?hl=zh-CN&user=maQlQdIAAAAJ)
-- [ORCID](https://orcid.org/0009-0004-5587-2188)
+我的研究目标是把 **医学数据、模型能力与临床价值** 真正连接起来，推动 AI 在真实医疗场景中的可解释、可落地与可推广。
+
+---
+
+### 📚 学术主页与成果
+
+- Google Scholar: [scholar profile](https://scholar.google.com/citations?hl=zh-CN&user=maQlQdIAAAAJ)
+- ORCID: [0009-0004-5587-2188](https://orcid.org/0009-0004-5587-2188)
+- GitHub: [shawnolove](https://github.com/shawnolove)
+
+> 说明：本网站的成果列表以 Google Scholar 页面为主进行维护与同步。
 
 ---
 
 ### 🗞️ News
 
-- 🔥 **Jul 2025** – Joined the **Medical AI Group at Department of Ultrasound, Ruijin Hospital, Shanghai Jiaotong University School of Medicinel** as a MscR**
-- ✨ **Aug 2024** – Mamba2MIL: State Space Duality Based Multiple Instance Learning for Computational Pathology**
+- **2025.07** — 加入上海交通大学医学院附属瑞金医院超声医学科 Medical AI Group，开展医学影像与医疗大模型相关研究。
+- **2024.08** — 发表预印本 *Mamba2MIL: State Space Duality Based Multiple Instance Learning for Computational Pathology*。
 
 ---
 
-### 🧠 Philosophy
+### 🤝 联系方式
 
-> "AI can’t replace doctors, but doctors who use AI will replace those who don’t."
+📫 Email: `xiaoqian_shawno@sjtu.edu.cn`
 
-I believe building trustworthy, interpretable, and accessible AI tools will shape the next era of healthcare.  
-Let’s work together toward that future.
-
-
+欢迎交流合作（科研合作、开源项目、学术交流）。
