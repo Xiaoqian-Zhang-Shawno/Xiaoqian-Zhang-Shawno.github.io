@@ -1,12 +1,64 @@
-/* Increase sidebar width */
-.sidebar {
-  width: 280px; /* 你可以改成 300px 或更宽 */
+.home-lead {
+  color: #17354f;
+  font-size: 1.22rem;
+  font-weight: 600;
+  line-height: 1.85;
+  margin-bottom: 1.25rem;
 }
 
-.sidebar.sticky {
-  width: 280px;
+.note-callout {
+  background: #f3f8fb;
+  border-left: 4px solid #1f6b9b;
+  border-radius: 0 14px 14px 0;
+  color: #21435d;
+  margin: 1.5rem 0 2rem;
+  padding: 1rem 1.2rem;
 }
 
-.page {
-  margin-left: 300px; /* 至少比 sidebar 宽一点，防止重叠 */
+.highlight-grid,
+.profile-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  margin: 1.5rem 0 2rem;
+}
+
+.metric-card,
+.profile-card {
+  border-radius: 18px;
+  padding: 1.15rem 1.2rem;
+}
+
+.metric-card {
+  background: linear-gradient(135deg, #12314a 0%, #235474 100%);
+  box-shadow: 0 14px 30px rgba(18, 49, 74, 0.16);
+  color: #fff;
+}
+
+.metric-card strong {
+  display: block;
+  font-size: 1.8rem;
+  line-height: 1.1;
+  margin-bottom: 0.35rem;
+}
+
+.profile-card {
+  background: linear-gradient(180deg, #fbfdff 0%, #f2f7fb 100%);
+  border: 1px solid #d8e3eb;
+  box-shadow: 0 12px 28px rgba(16, 42, 67, 0.06);
+}
+
+.profile-card h2 {
+  margin-top: 0;
+}
+
+.page__content ul li,
+.page__content ol li {
+  margin-bottom: 0.35rem;
+}
+
+@media (max-width: 63.9375em) {
+  .home-lead {
+    font-size: 1.08rem;
+  }
 }
