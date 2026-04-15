@@ -9,11 +9,11 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Xiaoqian Zhang/Shawno"
+title                    : "Xiaoqian Zhang"
 title_separator          : "-"
 name                     : &name "Xiaoqian Zhang"
-description              : &description "Master's Student in Medical Imaging | AI Researcher for Medicine and Healthcare | Multimodal LLMs"
-url                      : https://Xiaoqian-Zhang-Shawno.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
+description              : &description "M.S. student at Shanghai Jiao Tong University working on multimodal medical AI, medical imaging, and foundation models for healthcare."
+url                      : https://xiaoqian-zhang-shawno.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "shawnolove/Xiaoqian-Zhang-Shawno.github.io"
 
@@ -24,17 +24,16 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Xiaoqian Zhang"
-  pronouns         : "he/him" # example: "she/her"  
-  bio              : "M.S. Student at Shanghai Jiao Tong University, focusing on AI for Medical Imaging and Multimodal LLMs."
-  location         : "Shanghai,China"
+  bio              : "M.S. student in Medical Imaging Technology at Shanghai Jiao Tong University, interested in multimodal medical AI, medical image analysis, and foundation models for healthcare."
+  location         : "Shanghai, China"
   employer         : "Shanghai Jiao Tong University"
-  uri              : "https://Xiaoqian-Zhang-Shawno.github.io" # URL
+  uri              : "https://xiaoqian-zhang-shawno.github.io" # URL
   email            : "xiaoqian_shawno@sjtu.edu.cn" 
 
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?hl=zh-CN&user=maQlQdIAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?user=maQlQdIAAAAJ&hl=zh-CN"
   impactstory      : # URL
   orcid            : "https://orcid.org/0009-0004-5587-2188"
   semantic         : # URL
@@ -47,7 +46,6 @@ author:
   codepen          : # Username
   dribbble         : # Username
   github           : "shawnolove"
-  kaggle           : "Xiaoqian Shawno" # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
@@ -57,7 +55,6 @@ author:
   flickr           : # Username
   foursquare       : # Username
   goodreads        : # Username
-  google_plus      : # Username
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
@@ -66,7 +63,6 @@ author:
   medium           : # URL
   pinterest        : # Username
   soundcloud       : # Username
-  steam            : "ShawwwwnoLove" # Username
   telegram         : # URL
   tumblr           : # Username
   twitter          : # Username for X / Twitter
@@ -81,12 +77,10 @@ author:
 publication_category:
   journal:
     title: 'Journal Articles'
-  conference:
-    title: 'Conference Papers'
+  review:
+    title: 'Review Articles'
   preprint:
     title: 'Preprints & arXiv'
-  thesis:
-    title: 'Thesis & Dissertations'
 
 
 # Site Settings
