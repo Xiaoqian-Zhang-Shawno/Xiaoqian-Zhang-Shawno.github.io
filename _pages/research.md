@@ -4,7 +4,7 @@ title: "Research"
 author_profile: true
 ---
 
-My research sits at the intersection of **medical imaging**, **multimodal learning**, and **clinically useful AI systems**. I am especially interested in how images, language, and structured medical knowledge can be aligned to support diagnosis, synthesis, retrieval, and decision making in healthcare.
+My research sits at the intersection of **medical imaging**, **multimodal learning**, and **clinically useful AI systems**. I treat research as an algorithm engineering workflow: problem formulation, data pipeline design, model architecture, optimization strategy, evaluation, and reproducible delivery.
 
 ## Current Themes
 
@@ -18,7 +18,7 @@ My recent work spans computational pathology, PET image synthesis, and ultrasoun
 
 ### Foundation Models for Healthcare
 
-I care about how foundation models can be adapted, fine-tuned, and deployed for real medical problems. This includes both multimodal foundation models and practical engineering questions around robust adaptation and downstream evaluation.
+I care about how foundation models can be adapted, fine-tuned, and deployed for real medical problems. This includes both multimodal foundation models and practical engineering questions around robust adaptation, evaluation, and implementation.
 
 ## Representative Topics
 
@@ -38,8 +38,8 @@ I care about how foundation models can be adapted, fine-tuned, and deployed for 
 
 ## Methods and Tools
 
-- Python, PyTorch, scikit-learn, OpenCV
-- Multimodal modeling and medical image analysis pipelines
-- Research workflows for Jekyll/GitHub Pages, LaTeX, and academic writing
+- Python, PyTorch, scikit-learn, OpenCV, Hugging Face
+- Multimodal modeling, representation learning, and medical image analysis pipelines
+- Reproducible experimentation, technical writing, and research engineering workflows
 
 I am most motivated by research that bridges strong technical modeling with **clear clinical relevance**.

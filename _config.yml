@@ -12,7 +12,7 @@ site_theme               : "default"
 title                    : "Xiaoqian Zhang"
 title_separator          : "-"
 name                     : &name "Xiaoqian Zhang"
-description              : &description "M.S. student at Shanghai Jiao Tong University working on multimodal medical AI, medical imaging, and foundation models for healthcare."
+description              : &description "AI algorithm engineer focused on multimodal medical imaging, foundation models, and clinically grounded machine learning systems."
 url                      : https://xiaoqian-zhang-shawno.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "shawnolove/Xiaoqian-Zhang-Shawno.github.io"
@@ -24,10 +24,10 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Xiaoqian Zhang"
-  bio              : "M.S. student in Medical Imaging Technology at Shanghai Jiao Tong University, interested in multimodal medical AI, medical image analysis, and foundation models for healthcare."
+  bio              : "AI algorithm engineer focused on multimodal medical imaging, foundation models, and end-to-end model development. M.S. student at Shanghai Jiao Tong University."
   location         : "Shanghai, China"
   employer         : "Shanghai Jiao Tong University"
-  uri              : "https://xiaoqian-zhang-shawno.github.io" # URL
+  uri              : # URL
   email            : "xiaoqian_shawno@sjtu.edu.cn" 
 
   # Academic websites
@@ -117,7 +117,7 @@ staticman:
       options:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
-  hide                   : false     # change to true to hide the RSS feed in the footer
+  hide                   : true     # change to true to hide the RSS feed in the footer
   path                   : # blank (default) uses feed.xml
 
 
