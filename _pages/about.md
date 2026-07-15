@@ -7,25 +7,21 @@ redirect_from:
   - /about.html
 ---
 
-<p class="home-lead">I am <strong>Xiaoqian Zhang</strong> (also listed as <strong>Shawno Zhang</strong>, 张啸谦), an M.S. student in Medical Imaging Technology at Shanghai Jiao Tong University. My work focuses on multimodal medical AI, medical image analysis, and foundation models for clinically meaningful healthcare tasks.</p>
-
-<div class="note-callout">
-  As of April 15, 2026, my public Google Scholar profile lists <strong>5 publications</strong> and <strong>12 citations</strong>.
+<div class="hero-panel">
+  <p class="eyebrow">Medical Imaging · Multimodal AI · Clinical Translation</p>
+  <h1>Building medical AI that connects strong representations with real clinical questions.</h1>
+  <p class="home-lead">I am <strong>Xiaoqian Zhang</strong> (Shawno Zhang, 张啸谦), an M.S. student in Medical Imaging Technology at Shanghai Jiao Tong University. My research spans ultrasound, computational pathology, PET synthesis, and multimodal foundation models.</p>
+  <div class="hero-actions">
+    <a class="profile-button profile-button--primary" href="/publications/">Explore publications</a>
+    <a class="profile-button" href="https://scholar.google.co.jp/citations?user=maQlQdIAAAAJ&hl=zh-CN">Google Scholar</a>
+    <a class="profile-button" href="mailto:xiaoqian_shawno@sjtu.edu.cn">Get in touch</a>
+  </div>
 </div>
 
-<div class="highlight-grid">
-  <div class="metric-card">
-    <strong>5</strong>
-    <span>publications currently listed on Google Scholar</span>
-  </div>
-  <div class="metric-card">
-    <strong>12</strong>
-    <span>citations recorded on April 15, 2026</span>
-  </div>
-  <div class="metric-card">
-    <strong>3</strong>
-    <span>core themes: multimodal AI, medical imaging, and healthcare foundation models</span>
-  </div>
+<div class="highlight-grid" aria-label="Profile highlights">
+  <div class="metric-card"><strong>5</strong><span>publications across medical imaging and AI</span></div>
+  <div class="metric-card"><strong>4</strong><span>modalities and settings: ultrasound, photoacoustics, PET, pathology</span></div>
+  <div class="metric-card"><strong>2</strong><span>open-source projects for research automation and risk analysis</span></div>
 </div>
 
 <div class="profile-grid">
@@ -54,19 +50,42 @@ redirect_from:
   </section>
 </div>
 
-## Selected Publications
+## Featured Publications
 
-- [MoMIL: Multi-order enhanced multiple instance learning for computational pathology](/publication/2026-03-01-momil/)
-- [VQPET: Leveraging Vector-quantized Codebook Prior for PET Image Synthesis](/publication/2026-01-23-vqpet/)
-- [Research Progress and Clinical Translation of Photoacoustic-ultrasound Fusion Imaging in Breast Cancer Diagnosis and Therapy](/publication/2025-11-10-photoacoustic-ultrasound-breast-cancer/)
-- [多模态基础模型与超声影像的交叉应用](/publication/2025-08-01-multimodal-foundation-models-ultrasound/)
-- [Mamba2MIL: State Space Duality Based Multiple Instance Learning for Computational Pathology](/publication/2024-08-27-mamba2mil/)
+<div class="publication-stack">
+  <a class="publication-card" href="/publication/2026-03-01-momil/"><span class="card-kicker">Image and Vision Computing · 2026</span><strong>MoMIL</strong><span>Multi-order enhanced multiple instance learning for computational pathology.</span></a>
+  <a class="publication-card" href="/publication/2026-01-23-vqpet/"><span class="card-kicker">IEEE TMI · 2026</span><strong>VQPET</strong><span>Vector-quantized codebook priors for PET image synthesis.</span></a>
+  <a class="publication-card" href="/publication/2025-11-10-photoacoustic-ultrasound-breast-cancer/"><span class="card-kicker">AUDT · 2025</span><strong>Photoacoustic–Ultrasound Fusion</strong><span>Research progress and clinical translation in breast cancer.</span></a>
+  <a class="publication-card" href="/publication/2025-08-01-multimodal-foundation-models-ultrasound/"><span class="card-kicker">Chinese Journal of Medical Ultrasound · 2025</span><strong>Multimodal Foundation Models × Ultrasound</strong><span>A review of cross-applications and emerging clinical opportunities.</span></a>
+  <a class="publication-card" href="/publication/2024-08-27-mamba2mil/"><span class="card-kicker">arXiv · 2024</span><strong>Mamba2MIL</strong><span>State-space-duality-based MIL for whole-slide image analysis.</span></a>
+</div>
 
-## News
+<p class="section-link"><a href="/publications/">View the complete publication list →</a></p>
+
+<h2 id="projects">Selected Projects</h2>
+
+<div class="project-grid">
+  <article class="project-card project-card--research">
+    <div class="project-card__top"><span class="project-icon">↗</span><span class="status-pill">Research automation</span></div>
+    <h3>notion-monthly-research</h3>
+    <p>An automated monthly literature-intelligence workflow: GitHub Actions collects recent arXiv papers, an OpenAI-compatible model distills trends, and the result is published to Notion.</p>
+    <ul class="tag-list"><li>Python</li><li>GitHub Actions</li><li>arXiv</li><li>Notion API</li><li>LLM</li></ul>
+    <a class="project-link" href="https://github.com/Xiaoqian-Zhang-Shawno/notion-monthly-research">View repository →</a>
+  </article>
+  <article class="project-card project-card--product">
+    <div class="project-card__top"><span class="project-icon">◎</span><span class="status-pill">Local-first web app</span></div>
+    <h3>BetDogEye</h3>
+    <p>A privacy-minded sports-betting portfolio analysis interface with return and exposure analytics, bankroll controls, charts, import/export, PWA caching, and optional AI-assisted risk intelligence through a local proxy.</p>
+    <ul class="tag-list"><li>JavaScript</li><li>Python</li><li>PWA</li><li>Local storage</li><li>Risk analytics</li></ul>
+    <a class="project-link" href="https://github.com/Xiaoqian-Zhang-Shawno/BetDogEye">View repository →</a>
+  </article>
+</div>
+
+## Recent Milestones
 
 - Mar 2026: *MoMIL* was published in *Image and Vision Computing*.
-- Jan 23, 2026: *VQPET* appeared in *IEEE Transactions on Medical Imaging*.
-- Nov 10, 2025: our review on photoacoustic-ultrasound fusion imaging for breast cancer was published in *Advanced Ultrasound in Diagnosis and Therapy*.
+- May 2026: *VQPET* appeared in volume 45, issue 5 of *IEEE Transactions on Medical Imaging*.
+- Dec 2025: our review on photoacoustic–ultrasound fusion imaging for breast cancer was published in *Advanced Ultrasound in Diagnosis and Therapy*.
 - Aug 27, 2024: *Mamba2MIL* was released as an arXiv preprint on computational pathology.
 
 ## Links
@@ -74,6 +93,6 @@ redirect_from:
 - [Research](/research/)
 - [Publications](/publications/)
 - [CV](/cv/)
-- [Google Scholar](https://scholar.google.com/citations?user=maQlQdIAAAAJ&hl=zh-CN)
+- [Google Scholar](https://scholar.google.co.jp/citations?user=maQlQdIAAAAJ&hl=zh-CN)
 - [ORCID](https://orcid.org/0009-0004-5587-2188)
-- [GitHub](https://github.com/shawnolove)
+- [GitHub](https://github.com/Xiaoqian-Zhang-Shawno)
