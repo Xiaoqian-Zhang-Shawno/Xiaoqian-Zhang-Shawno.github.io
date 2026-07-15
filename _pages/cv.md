@@ -52,6 +52,6 @@ Honors and Awards
 
 Profiles
 ======
-* Google Scholar: <https://scholar.google.com/citations?user=maQlQdIAAAAJ&hl=zh-CN>
+* Google Scholar: <https://scholar.google.co.jp/citations?user=maQlQdIAAAAJ&hl=zh-CN>
 * ORCID: <https://orcid.org/0009-0004-5587-2188>
-* GitHub: <https://github.com/shawnolove>
+* GitHub: <https://github.com/Xiaoqian-Zhang-Shawno>
