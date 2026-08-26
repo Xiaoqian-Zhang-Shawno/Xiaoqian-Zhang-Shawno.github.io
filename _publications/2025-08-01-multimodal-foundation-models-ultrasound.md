@@ -9,6 +9,10 @@ paperurl: "https://doi.org/10.3877/cma.j.issn.1672-6448.2025.08.013"
 paperlabel: "View Article"
 citation: '孟雅清, 杨景涵, 李欣玥, 张啸谦, 田捷, 王坤. (2025). "多模态基础模型与超声影像的交叉应用." <i>中华医学超声杂志（电子版）</i>, 22(08), 777-782.'
 excerpt: "A review of multimodal foundation models, their cross-applications with ultrasound imaging, and emerging opportunities for clinical medical AI."
+topics:
+  - Foundation Models
+  - Ultrasound Imaging
+  - Multimodal AI
 ---
 This review article, also indexed under the English title **Cross-Applications of Multimodal Foundation Models and Ultrasound Imaging**, discusses model capabilities, cross-disciplinary applications, and emerging opportunities in medical AI.
 

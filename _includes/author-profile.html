@@ -8,10 +8,11 @@
 
   <div class="author__avatar">
     {% if author.avatar contains "://" %}
-    	<img src="{{ author.avatar }}" alt="{{ author.name }}"  fetchpriority="high" />
+	<img src="{{ author.avatar }}" class="author-avatar author-avatar--light" alt="{{ author.name }}" fetchpriority="high" />
     {% else %}
-    	<img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }}"  fetchpriority="high" />
+	<img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" class="author-avatar author-avatar--light" alt="{{ author.name }}" fetchpriority="high" />
     {% endif %}
+    <img src="{{ "/images/profile-dark.jpg" | prepend: base_path }}" class="author-avatar author-avatar--dark" alt="Illustrated night profile for {{ author.name }}" />
   </div>
 
   <div class="author__content">

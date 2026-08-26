@@ -5,15 +5,23 @@ permalink: /publications/
 author_profile: true
 ---
 
-This publication list is curated from my Google Scholar profile and verified against publisher, DOI, arXiv, and PubMed records. It currently includes **5 publications** spanning computational pathology, PET synthesis, ultrasound, and photoacoustic imaging.
-
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
-
 {% include base_path %}
 
-<!-- New style rendering if publication categories are defined -->
+{% assign journal_count = site.publications | where: "category", "journal" | size %}
+{% assign review_count = site.publications | where: "category", "review" | size %}
+
+<header class="publication-hero">
+  <p class="hero-eyebrow">RESEARCH OUTPUTS</p>
+  <h2>Algorithms developed around real medical imaging problems.</h2>
+  <p>Selected work spanning computational pathology, PET synthesis, ultrasound imaging, and multimodal foundation models. Each project connects a clinical or scientific task with a concrete modeling strategy.</p>
+  <div class="publication-stats" aria-label="Publication summary">
+    <div><strong>{{ site.publications | size }}</strong><span>Research outputs</span></div>
+    <div><strong>{{ journal_count }}</strong><span>Journal articles</span></div>
+    <div><strong>{{ review_count }}</strong><span>Review articles</span></div>
+  </div>
+  {% if site.author.googlescholar %}<a class="scholar-link" href="{{ site.author.googlescholar }}">View verified record on Google Scholar</a>{% endif %}
+</header>
+
 {% if site.publication_category %}
   {% for category in site.publication_category  %}
     {% assign title_shown = false %}
@@ -22,15 +30,17 @@ This publication list is curated from my Google Scholar profile and verified aga
         {% continue %}
       {% endif %}
       {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
+        <div class="publication-section-heading">
+          <span>{{ category[0] }}</span>
+          <h2>{{ category[1].title }}</h2>
+        </div>
         {% assign title_shown = true %}
       {% endunless %}
-      {% include archive-single.html %}
+      {% include publication-card.html %}
     {% endfor %}
   {% endfor %}
 {% else %}
   {% for post in site.publications reversed %}
-    {% include archive-single.html %}
+    {% include publication-card.html %}
   {% endfor %}
 {% endif %}
-
