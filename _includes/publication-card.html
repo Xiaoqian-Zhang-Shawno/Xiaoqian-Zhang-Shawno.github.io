@@ -1,0 +1,20 @@
+<article class="research-output-card">
+  <div class="research-output-card__meta">
+    <span class="research-output-card__year">{{ post.date | date: "%Y" }}</span>
+    <span class="research-output-card__type">{{ category[1].title | default: post.category }}</span>
+  </div>
+  <div class="research-output-card__body">
+    <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+    <p class="research-output-card__venue">{{ post.venue }}</p>
+    <p class="research-output-card__summary">{{ post.excerpt }}</p>
+    {% if post.topics %}
+      <div class="research-output-card__topics" aria-label="Research topics">
+        {% for topic in post.topics %}<span>{{ topic }}</span>{% endfor %}
+      </div>
+    {% endif %}
+    <div class="research-output-card__actions">
+      {% if post.paperurl %}<a class="publication-action publication-action--primary" href="{{ post.paperurl }}">{{ post.paperlabel | default: "Open Paper" }}</a>{% endif %}
+      <a class="publication-action" href="{{ post.url | relative_url }}">Read Technical Overview</a>
+    </div>
+  </div>
+</article>
