@@ -4,29 +4,30 @@ title: "Research"
 author_profile: true
 ---
 
-My research sits at the intersection of **medical imaging**, **multimodal learning**, and **clinically useful AI systems**. I am especially interested in how images, language, and structured medical knowledge can be aligned to support diagnosis, synthesis, retrieval, and decision making in healthcare.
+My research focuses on **AI for Healthcare (AI4Healthcare)**, with representation learning and 3D perception as the main algorithmic foundations. I am interested in learning robust, transferable representations from medical data and developing spatially aware models that can support clinically meaningful analysis and decision making.
 
 ## Current Themes
 
-### Multimodal Medical AI
+### AI4Healthcare
 
-I study models that connect visual and textual medical information, with a particular focus on multimodal tasks where imaging data must be understood together with reports, annotations, or clinical context.
+I develop learning-based methods for healthcare problems, especially tasks involving medical images and clinically relevant data. My goal is to connect algorithmic innovation with reliable evaluation and practical medical value.
 
-### Medical Image Analysis
+### Representation Learning
 
-My recent work spans computational pathology, PET image synthesis, and ultrasound-related applications. Across these settings, I am interested in representation learning methods that remain useful under real clinical constraints.
+I study how models can learn robust and transferable representations from limited, heterogeneous, or weakly annotated medical data. My recent work in computational pathology, PET synthesis, and ultrasound provides the application foundation for this direction.
 
-### Foundation Models for Healthcare
+### 3D Perception Algorithms
 
-I care about how foundation models can be adapted, fine-tuned, and deployed for real medical problems. This includes both multimodal foundation models and practical engineering questions around robust adaptation and downstream evaluation.
+I am interested in algorithms that reason about volumetric structure and spatial relationships in medical data. This direction includes 3D visual perception, geometry-aware representation learning, and efficient modeling for complex spatial inputs.
 
 ## Representative Topics
 
 - Computational pathology and multiple instance learning
 - PET image synthesis with learned priors
 - Ultrasound and photoacoustic-ultrasound fusion imaging
-- Medical vision-language and multimodal foundation models
-- Trustworthy AI for diagnosis support and clinical translation
+- Robust and transferable representation learning
+- 3D visual perception and volumetric medical data understanding
+- Reliable AI systems for healthcare applications
 
 ## Selected Publications
 
@@ -39,7 +40,7 @@ I care about how foundation models can be adapted, fine-tuned, and deployed for 
 ## Methods and Tools
 
 - Python, PyTorch, scikit-learn, OpenCV
-- Multimodal modeling and medical image analysis pipelines
+- Representation learning, 3D perception, and medical image analysis pipelines
 - Research workflows for Jekyll/GitHub Pages, LaTeX, and academic writing
 
-I am most motivated by research that bridges strong technical modeling with **clear clinical relevance**.
+I am most motivated by research that combines strong algorithmic foundations with **clear healthcare relevance**.

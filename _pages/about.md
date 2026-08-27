@@ -8,9 +8,9 @@ redirect_from:
 ---
 
 <div class="hero-panel">
-  <p class="eyebrow">Medical Imaging · Multimodal AI · Clinical Translation</p>
-  <h1>Building medical AI that connects strong representations with real clinical questions.</h1>
-  <p class="home-lead">I am <strong>Xiaoqian Zhang</strong> (Shawno Zhang, 张啸谦), an M.S. student in Medical Imaging Technology at Shanghai Jiao Tong University. My research spans ultrasound, computational pathology, PET synthesis, and multimodal foundation models.</p>
+  <p class="eyebrow">AI4Healthcare · Representation Learning · 3D Perception</p>
+  <h1>Learning robust representations and 3D perception for healthcare intelligence.</h1>
+  <p class="home-lead">I am <strong>Xiaoqian Zhang</strong> (Shawno Zhang, 张啸谦), an M.S. student in Medical Imaging Technology at Shanghai Jiao Tong University. My research focuses on AI for Healthcare (AI4Healthcare), with particular interests in representation learning and 3D perception algorithms for medical data.</p>
   <div class="hero-actions">
     <a class="profile-button profile-button--primary" href="/publications/">Explore publications</a>
     <a class="profile-button" href="https://scholar.google.co.jp/citations?user=maQlQdIAAAAJ&hl=zh-CN">Google Scholar</a>
@@ -35,10 +35,10 @@ redirect_from:
   <section class="profile-card">
     <h2>Research Focus</h2>
     <ul>
-      <li>Multimodal foundation models for medical tasks</li>
-      <li>Medical image analysis across pathology, PET, and ultrasound</li>
-      <li>Foundation-model fine-tuning and deployment for healthcare</li>
-      <li>Trustworthy AI systems that connect imaging data with clinical utility</li>
+      <li><strong>AI4Healthcare:</strong> learning-based systems for clinically meaningful medical tasks</li>
+      <li><strong>Representation Learning:</strong> robust and transferable representations for medical images and multimodal data</li>
+      <li><strong>3D Perception Algorithms:</strong> volumetric understanding and spatial reasoning for medical data</li>
+      <li>Reliable algorithm design that connects technical performance with healthcare utility</li>
     </ul>
   </section>
   <section class="profile-card">

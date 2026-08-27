@@ -18,10 +18,10 @@ Education
 
 Research Interests
 ======
-* Multimodal medical artificial intelligence
-* Medical image analysis
-* Foundation models for healthcare
-* Clinically useful and trustworthy AI systems
+* AI4Healthcare (AI for Healthcare)
+* Representation learning
+* 3D perception algorithms
+* Medical image analysis and spatial understanding
 
 Research Experience
 ======

@@ -12,7 +12,7 @@ site_theme               : "default"
 title                    : "Xiaoqian Zhang"
 title_separator          : "-"
 name                     : &name "Xiaoqian Zhang"
-description              : &description "M.S. student at Shanghai Jiao Tong University working on multimodal medical AI, ultrasound imaging, and clinically useful foundation models."
+description              : &description "M.S. student at Shanghai Jiao Tong University working on AI4Healthcare, representation learning, and 3D perception algorithms."
 url                      : https://xiaoqian-zhang-shawno.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "Xiaoqian-Zhang-Shawno/Xiaoqian-Zhang-Shawno.github.io"
@@ -24,7 +24,7 @@ author:
   # Biographic information
   avatar           : "xiaoqian-zhang-2026.jpg"
   name             : "Xiaoqian Zhang"
-  bio              : "M.S. student in Medical Imaging Technology at Shanghai Jiao Tong University. Multimodal medical AI, ultrasound, and computational imaging."
+  bio              : "M.S. student at Shanghai Jiao Tong University. AI4Healthcare, representation learning, and 3D perception algorithms."
   location         : "Shanghai, China"
   employer         : "Shanghai Jiao Tong University"
   uri              : "https://xiaoqian-zhang-shawno.github.io" # URL
