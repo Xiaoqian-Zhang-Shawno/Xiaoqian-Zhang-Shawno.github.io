@@ -8,8 +8,8 @@ redirect_from:
 ---
 
 <div class="hero-panel">
-  <p class="eyebrow">AI4Healthcare · Representation Learning · 3D Perception</p>
-  <h1>Learning robust representations and 3D perception for healthcare intelligence.</h1>
+  <p class="eyebrow">Medical imaging &amp; machine learning</p>
+  <h2 class="hero-title">Learning from medical images.<br>Building tools for research.</h2>
   <p class="home-lead">I am <strong>Xiaoqian Zhang</strong> (Shawno Zhang, 张啸谦), an M.S. student in Medical Imaging Technology at Shanghai Jiao Tong University. My research focuses on AI for Healthcare (AI4Healthcare), with particular interests in representation learning and 3D perception algorithms for medical data.</p>
   <div class="hero-actions">
     <a class="profile-button profile-button--primary" href="/publications/">Explore publications</a>
@@ -18,11 +18,11 @@ redirect_from:
   </div>
 </div>
 
-<div class="highlight-grid" aria-label="Profile highlights">
-  <div class="metric-card"><strong>5</strong><span>publications across medical imaging and AI</span></div>
-  <div class="metric-card"><strong>4</strong><span>modalities and settings: ultrasound, photoacoustics, PET, pathology</span></div>
-  <div class="metric-card"><strong>2</strong><span>open-source projects for research automation and risk analysis</span></div>
-</div>
+<nav class="research-paths" aria-label="Explore my work">
+  <a href="/research/"><strong>Research</strong><span>Representation learning, computational pathology, and medical image synthesis</span></a>
+  <a href="/#projects"><strong>Software</strong><span>Literature workflows and tools that support research practice</span></a>
+  <a href="/cv/"><strong>Background</strong><span>Education, research experience, and academic activities</span></a>
+</nav>
 
 <div class="profile-grid">
   <section class="profile-card">
@@ -66,14 +66,14 @@ redirect_from:
 
 <div class="project-grid">
   <article class="project-card project-card--research">
-    <div class="project-card__top"><span class="project-icon">↗</span><span class="status-pill">Research automation</span></div>
+    <div class="project-card__top"><span class="project-icon" aria-hidden="true">↗</span><span class="status-pill">Research automation</span></div>
     <h3>notion-monthly-research</h3>
     <p>An automated monthly literature-intelligence workflow: GitHub Actions collects recent arXiv papers, an OpenAI-compatible model distills trends, and the result is published to Notion.</p>
     <ul class="tag-list"><li>Python</li><li>GitHub Actions</li><li>arXiv</li><li>Notion API</li><li>LLM</li></ul>
     <a class="project-link" href="https://github.com/Xiaoqian-Zhang-Shawno/notion-monthly-research">View repository →</a>
   </article>
   <article class="project-card project-card--product">
-    <div class="project-card__top"><span class="project-icon">◎</span><span class="status-pill">Local-first web app</span></div>
+    <div class="project-card__top"><span class="project-icon" aria-hidden="true">◎</span><span class="status-pill">Local-first web app</span></div>
     <h3>BetDogEye</h3>
     <p>A privacy-minded sports-betting portfolio analysis interface with return and exposure analytics, bankroll controls, charts, import/export, PWA caching, and optional AI-assisted risk intelligence through a local proxy.</p>
     <ul class="tag-list"><li>JavaScript</li><li>Python</li><li>PWA</li><li>Local storage</li><li>Risk analytics</li></ul>
@@ -81,10 +81,10 @@ redirect_from:
   </article>
 </div>
 
-## Recent Milestones
+## Publication Timeline
 
-- Mar 2026: *MoMIL* was published in *Image and Vision Computing*.
 - May 2026: *VQPET* appeared in volume 45, issue 5 of *IEEE Transactions on Medical Imaging*.
+- Mar 2026: *MoMIL* was published in *Image and Vision Computing*.
 - Dec 2025: our review on photoacoustic–ultrasound fusion imaging for breast cancer was published in *Advanced Ultrasound in Diagnosis and Therapy*.
 - Aug 27, 2024: *Mamba2MIL* was released as an arXiv preprint on computational pathology.
 
