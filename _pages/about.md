@@ -85,7 +85,12 @@ redirect_from:
 
 <section class="showcase-section showcase-background" id="background" aria-labelledby="background-title">
   <div><p class="showcase-caption">The foundation</p><h2 id="background-title">Engineering roots.<br>Medical perspective.</h2><p>Biomedical engineering training, medical imaging research, and hands-on experience with tissue data.</p><a class="showcase-text-link" href="/cv/">Full curriculum vitae <span aria-hidden="true">↗</span></a></div>
-  <div class="showcase-timeline"><article><span>2025–2028 · Expected</span><h3>Shanghai Jiao Tong University</h3><p>M.S. in Medical Imaging Technology<br>School of Medical Technology</p></article><article><span>2021–2025</span><h3>Beihang University</h3><p>B.E. in Biomedical Engineering</p></article><article><span>Jun–Nov 2024</span><h3>BGI Research Institute</h3><p>Research internship · Spatial transcriptomics, tissue annotation, and image segmentation</p></article></div>
+  <div class="showcase-timeline">
+    <article><span>2021–2025</span><h3>Beihang University</h3><p>B.E. in Biomedical Engineering</p></article>
+    <article><span>Jun–Nov 2024</span><h3>BGI Research Institute</h3><p>Research internship · Spatial transcriptomics, tissue annotation, and image segmentation</p></article>
+    <article><span>2025–2028 · Expected</span><h3>Shanghai Jiao Tong University</h3><p>M.S. in Medical Imaging Technology<br>School of Medical Technology</p></article>
+    <article><span>Jul–Dec 2026 · Expected completion</span><h3>United Imaging Zhirong</h3><p>Internship · Multi-view endoscopic reconstruction and research engineering</p></article>
+  </div>
 </section>
 
 <section class="showcase-contact" aria-labelledby="contact-title"><div><p class="showcase-caption">Start a conversation</p><h2 id="contact-title">Shared questions.<br>Better research.</h2><p>Interested in medical imaging, representation learning, or tools for research? Let’s talk.</p><a class="showcase-contact-email" href="mailto:xiaoqian_shawno@sjtu.edu.cn">xiaoqian_shawno@sjtu.edu.cn <span aria-hidden="true">↗</span></a></div><div class="showcase-contact-links"><a href="https://github.com/Xiaoqian-Zhang-Shawno">GitHub</a><a href="https://scholar.google.co.jp/citations?user=maQlQdIAAAAJ&amp;hl=zh-CN">Google Scholar</a><a href="https://orcid.org/0009-0004-5587-2188">ORCID</a></div></section>
