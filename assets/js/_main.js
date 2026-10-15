@@ -136,6 +136,7 @@ $(document).ready(function () {
   // Init smooth scroll, this needs to be slightly more than then fixed masthead height
   $("a").smoothScroll({
     offset: -scssMastheadHeight,
+    speed: window.matchMedia("(prefers-reduced-motion: reduce)").matches ? 0 : 400,
     preventDefault: false,
   });
 

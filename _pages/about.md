@@ -1,98 +1,85 @@
 ---
+layout: profile
 permalink: /
-title: "Xiaoqian Zhang"
-author_profile: true
-redirect_from: 
+title: "Xiaoqian Zhang — Medical Imaging & Machine Learning"
+excerpt: "Xiaoqian Zhang at Shanghai Jiao Tong University. Medical imaging, representation learning, computational pathology, and research software."
+author_profile: false
+redirect_from:
   - /about/
   - /about.html
 ---
 
-<div class="hero-panel">
-  <p class="eyebrow">Medical imaging &amp; machine learning</p>
-  <h2 class="hero-title">Learning from medical images.<br>Building tools for research.</h2>
-  <p class="home-lead">I am <strong>Xiaoqian Zhang</strong> (Shawno Zhang, 张啸谦), an M.S. student in Medical Imaging Technology at Shanghai Jiao Tong University. My research focuses on AI for Healthcare (AI4Healthcare), with particular interests in representation learning and 3D perception algorithms for medical data.</p>
-  <div class="hero-actions">
-    <a class="profile-button profile-button--primary" href="/publications/">Explore publications</a>
-    <a class="profile-button" href="https://scholar.google.co.jp/citations?user=maQlQdIAAAAJ&hl=zh-CN">Google Scholar</a>
-    <a class="profile-button" href="mailto:xiaoqian_shawno@sjtu.edu.cn">Get in touch</a>
+<section class="showcase-hero" aria-labelledby="profile-name">
+  <div class="showcase-intro">
+    <p class="showcase-location">Shanghai Jiao Tong University <span>Shanghai, China</span></p>
+    <h1 id="profile-name">Xiaoqian<br>Zhang<span class="showcase-chinese" lang="zh">张啸谦 / Shawno</span></h1>
+    <p class="showcase-statement">Medical intelligence.<br>From representations to systems.</p>
+    <p class="showcase-bio">I study how machines learn from medical images — and build the research tools around them. M.S. student in Medical Imaging Technology at SJTU, with a background in biomedical engineering at Beihang.</p>
+    <div class="showcase-actions">
+      <a class="showcase-button" href="#selected-research">Explore my work <span aria-hidden="true">↘</span></a>
+      <a class="showcase-text-link" href="/cv/">Curriculum vitae</a>
+      <a class="showcase-text-link" href="mailto:xiaoqian_shawno@sjtu.edu.cn">Email me</a>
+    </div>
   </div>
-</div>
+  <div class="showcase-visual">
+    <div class="showcase-portrait">
+      <img src="/images/xiaoqian-zhang-2026.jpg" width="104" height="104" alt="Portrait of Xiaoqian Zhang" fetchpriority="high">
+      <div><strong>Research &amp; engineering</strong><span>Medical imaging · Machine learning</span></div>
+    </div>
+    <div class="showcase-map" aria-label="Research themes: medical images, learned representations, and medical understanding">
+      <div class="showcase-map-top"><span>Images to understanding</span><span aria-hidden="true">↗</span></div>
+      <svg viewBox="0 0 460 280" role="img" aria-labelledby="map-title"><title id="map-title">Conceptual illustration of image patches connecting to learned representations</title>
+        <defs><linearGradient id="map-field" x2="1" y2="1"><stop stop-color="#174d9c"/><stop offset="1" stop-color="#43c8d3"/></linearGradient></defs>
+        <g fill="none" stroke="#779aba" stroke-width="1" opacity=".35"><path d="M65 83L224 54 378 99 226 224Z"/><path d="M65 83L221 133 378 99M224 54L221 133 226 224M65 83L226 224M224 54L378 99"/><ellipse cx="228" cy="138" rx="185" ry="102" transform="rotate(-16 228 138)"/></g>
+        <g transform="translate(35 56) rotate(-12 45 45)" fill="url(#map-field)"><rect width="23" height="23" rx="4"/><rect x="29" width="23" height="23" rx="4" opacity=".6"/><rect x="58" width="23" height="23" rx="4" opacity=".85"/><rect y="29" width="23" height="23" rx="4" opacity=".65"/><rect x="29" y="29" width="23" height="23" rx="4"/><rect x="58" y="29" width="23" height="23" rx="4" opacity=".5"/><rect y="58" width="23" height="23" rx="4" opacity=".8"/><rect x="29" y="58" width="23" height="23" rx="4" opacity=".5"/><rect x="58" y="58" width="23" height="23" rx="4"/></g>
+        <g fill="#82dfdf" stroke="#122f53" stroke-width="8"><circle cx="224" cy="54" r="12"/><circle cx="221" cy="133" r="23"/><circle cx="226" cy="224" r="10"/><circle cx="378" cy="99" r="17"/></g>
+        <g fill="#b9d1e8"><circle cx="145" cy="184" r="4"/><circle cx="323" cy="188" r="4"/><circle cx="305" cy="54" r="3"/></g>
+      </svg>
+      <div class="showcase-map-labels"><span>Medical images</span><span>Representations</span><span>Understanding</span></div>
+    </div>
+    <p class="showcase-visual-note">Computational pathology / PET synthesis / Multimodal imaging</p>
+  </div>
+</section>
 
-<nav class="research-paths" aria-label="Explore my work">
-  <a href="/research/"><strong>Research</strong><span>Representation learning, computational pathology, and medical image synthesis</span></a>
-  <a href="/#projects"><strong>Software</strong><span>Literature workflows and tools that support research practice</span></a>
-  <a href="/cv/"><strong>Background</strong><span>Education, research experience, and academic activities</span></a>
+<nav class="showcase-index" aria-label="Profile sections">
+  <a href="#selected-research">Selected research <span aria-hidden="true">↓</span></a>
+  <a href="#projects">Open-source systems <span aria-hidden="true">↓</span></a>
+  <a href="#background">Background <span aria-hidden="true">↓</span></a>
+  <a href="https://scholar.google.co.jp/citations?user=maQlQdIAAAAJ&amp;hl=zh-CN">Google Scholar <span aria-hidden="true">↗</span></a>
 </nav>
 
-<div class="profile-grid">
-  <section class="profile-card">
-    <h2>Education</h2>
-    <ul>
-      <li><strong>Shanghai Jiao Tong University</strong><br>M.S. in Medical Imaging Technology (Academic Track), School of Medical Technology, Sep 2025 - Jun 2028</li>
-      <li><strong>Beihang University</strong><br>B.E. in Biomedical Engineering, School of Biomedical Engineering, Sep 2021 - Jun 2025</li>
-    </ul>
-  </section>
-  <section class="profile-card">
-    <h2>Research Focus</h2>
-    <ul>
-      <li><strong>AI4Healthcare:</strong> learning-based systems for clinically meaningful medical tasks</li>
-      <li><strong>Representation Learning:</strong> robust and transferable representations for medical images and multimodal data</li>
-      <li><strong>3D Perception Algorithms:</strong> volumetric understanding and spatial reasoning for medical data</li>
-      <li>Reliable algorithm design that connects technical performance with healthcare utility</li>
-    </ul>
-  </section>
-  <section class="profile-card">
-    <h2>Research Experience</h2>
-    <ul>
-      <li><strong>Research Intern</strong>, BGI Research Institute, Beijing, China<br>Jun 2024 - Nov 2024</li>
-      <li>Worked on spatial transcriptomics analysis, region annotation, and image segmentation for inflammatory liver and thymic tissue data.</li>
-    </ul>
-  </section>
-</div>
+<section class="showcase-section" id="selected-research" aria-labelledby="selected-title">
+  <div class="showcase-section-heading"><div><p class="showcase-caption">Research in focus</p><h2 id="selected-title">Learning the structure<br>behind the image.</h2></div><a class="showcase-text-link" href="/publications/">All publications <span aria-hidden="true">↗</span></a></div>
+  <p class="showcase-section-intro">My work connects representation learning with medical imaging: aggregating whole-slide information, learning synthesis priors, and understanding complementary imaging modalities.</p>
+  <div class="showcase-papers">
+    {% assign selected_papers = site.publications | sort: "date" | reverse %}
+    {% for post in selected_papers limit:3 %}
+    <article class="showcase-paper">
+      <div class="showcase-paper-meta"><span>{{ post.venue | split: "," | first }}</span><span>{{ post.date | date: "%Y" }}</span></div>
+      <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+      <p>{{ post.excerpt }}</p>
+      <div class="showcase-paper-bottom"><span>{{ post.topics | first }}</span><a href="{{ post.paperurl }}" aria-label="Read paper: {{ post.title | escape }}">Read paper <span aria-hidden="true">↗</span></a></div>
+    </article>
+    {% endfor %}
+  </div>
+  <div class="showcase-research-note"><strong>Also exploring</strong><p>3D perception and spatially aware representations for volumetric medical data.</p><a href="/research/">Research directions</a></div>
+</section>
 
-## Featured Publications
+<section class="showcase-section showcase-systems" id="projects" aria-labelledby="systems-title">
+  <div class="showcase-section-heading"><div><p class="showcase-caption">Built for the workflow</p><h2 id="systems-title">Research needs<br>good systems, too.</h2></div><a class="showcase-text-link" href="https://github.com/Xiaoqian-Zhang-Shawno">On GitHub <span aria-hidden="true">↗</span></a></div>
+  <div class="showcase-project showcase-project-featured">
+    <div class="showcase-project-body"><p class="showcase-caption">Research infrastructure</p><h3>ShawnoBot</h3><p>A controlled bridge between Feishu and a local research workstation. Inspect GPU usage, training logs, and jobs; run allowlisted tasks and sandboxed Codex workflows from chat.</p><ul class="showcase-tags" aria-label="ShawnoBot technologies"><li>Python</li><li>Feishu</li><li>Codex CLI</li><li>GPU monitoring</li></ul><a class="showcase-project-link" href="https://github.com/Xiaoqian-Zhang-Shawno/ShawnoBot">Explore ShawnoBot <span aria-hidden="true">↗</span></a></div>
+    <div class="showcase-workflow" aria-label="ShawnoBot workflow"><div><span>Interface</span><strong>Feishu message</strong></div><span class="showcase-workflow-line" aria-hidden="true"></span><div><span>Control</span><strong>Authorization &amp; allowlists</strong></div><span class="showcase-workflow-line" aria-hidden="true"></span><div><span>Workstation</span><strong>GPU · Logs · Codex tasks</strong></div></div>
+  </div>
+  <div class="showcase-project-pair">
+    <article class="showcase-project"><p class="showcase-caption">Literature intelligence</p><h3>notion-monthly-research</h3><p>From recent arXiv papers to a structured research digest. Scheduled collection, model-assisted trend synthesis, and archival in Notion.</p><ul class="showcase-tags"><li>Python</li><li>GitHub Actions</li><li>LLM</li><li>Notion API</li></ul><a class="showcase-project-link" href="https://github.com/Xiaoqian-Zhang-Shawno/notion-monthly-research">Explore the workflow <span aria-hidden="true">↗</span></a></article>
+    <article class="showcase-project"><p class="showcase-caption">Local-first application</p><h3>BetDogEye</h3><p>A sports-betting portfolio analysis app with exposure and return analytics, local storage, data portability, and optional AI-assisted insights.</p><ul class="showcase-tags"><li>JavaScript</li><li>PWA</li><li>Data visualization</li></ul><a class="showcase-project-link" href="https://github.com/Xiaoqian-Zhang-Shawno/BetDogEye">Explore the application <span aria-hidden="true">↗</span></a></article>
+  </div>
+</section>
 
-<div class="publication-stack">
-  <a class="publication-card" href="/publication/2026-03-01-momil/"><span class="card-kicker">Image and Vision Computing · 2026</span><strong>MoMIL</strong><span>Multi-order enhanced multiple instance learning for computational pathology.</span></a>
-  <a class="publication-card" href="/publication/2026-01-23-vqpet/"><span class="card-kicker">IEEE TMI · 2026</span><strong>VQPET</strong><span>Vector-quantized codebook priors for PET image synthesis.</span></a>
-  <a class="publication-card" href="/publication/2025-11-10-photoacoustic-ultrasound-breast-cancer/"><span class="card-kicker">AUDT · 2025</span><strong>Photoacoustic–Ultrasound Fusion</strong><span>Research progress and clinical translation in breast cancer.</span></a>
-  <a class="publication-card" href="/publication/2025-08-01-multimodal-foundation-models-ultrasound/"><span class="card-kicker">Chinese Journal of Medical Ultrasound · 2025</span><strong>Multimodal Foundation Models × Ultrasound</strong><span>A review of cross-applications and emerging clinical opportunities.</span></a>
-  <a class="publication-card" href="/publication/2024-08-27-mamba2mil/"><span class="card-kicker">arXiv · 2024</span><strong>Mamba2MIL</strong><span>State-space-duality-based MIL for whole-slide image analysis.</span></a>
-</div>
+<section class="showcase-section showcase-background" id="background" aria-labelledby="background-title">
+  <div><p class="showcase-caption">The foundation</p><h2 id="background-title">Engineering roots.<br>Medical perspective.</h2><p>Biomedical engineering training, medical imaging research, and hands-on experience with tissue data.</p><a class="showcase-text-link" href="/cv/">Full curriculum vitae <span aria-hidden="true">↗</span></a></div>
+  <div class="showcase-timeline"><article><span>2025–2028 · Expected</span><h3>Shanghai Jiao Tong University</h3><p>M.S. in Medical Imaging Technology<br>School of Medical Technology</p></article><article><span>2021–2025</span><h3>Beihang University</h3><p>B.E. in Biomedical Engineering</p></article><article><span>Jun–Nov 2024</span><h3>BGI Research Institute</h3><p>Research internship · Spatial transcriptomics, tissue annotation, and image segmentation</p></article></div>
+</section>
 
-<p class="section-link"><a href="/publications/">View the complete publication list →</a></p>
-
-<h2 id="projects">Selected Projects</h2>
-
-<div class="project-grid">
-  <article class="project-card project-card--research">
-    <div class="project-card__top"><span class="project-icon" aria-hidden="true">↗</span><span class="status-pill">Research automation</span></div>
-    <h3>notion-monthly-research</h3>
-    <p>An automated monthly literature-intelligence workflow: GitHub Actions collects recent arXiv papers, an OpenAI-compatible model distills trends, and the result is published to Notion.</p>
-    <ul class="tag-list"><li>Python</li><li>GitHub Actions</li><li>arXiv</li><li>Notion API</li><li>LLM</li></ul>
-    <a class="project-link" href="https://github.com/Xiaoqian-Zhang-Shawno/notion-monthly-research">View repository →</a>
-  </article>
-  <article class="project-card project-card--product">
-    <div class="project-card__top"><span class="project-icon" aria-hidden="true">◎</span><span class="status-pill">Local-first web app</span></div>
-    <h3>BetDogEye</h3>
-    <p>A privacy-minded sports-betting portfolio analysis interface with return and exposure analytics, bankroll controls, charts, import/export, PWA caching, and optional AI-assisted risk intelligence through a local proxy.</p>
-    <ul class="tag-list"><li>JavaScript</li><li>Python</li><li>PWA</li><li>Local storage</li><li>Risk analytics</li></ul>
-    <a class="project-link" href="https://github.com/Xiaoqian-Zhang-Shawno/BetDogEye">View repository →</a>
-  </article>
-</div>
-
-## Publication Timeline
-
-- May 2026: *VQPET* appeared in volume 45, issue 5 of *IEEE Transactions on Medical Imaging*.
-- Mar 2026: *MoMIL* was published in *Image and Vision Computing*.
-- Dec 2025: our review on photoacoustic–ultrasound fusion imaging for breast cancer was published in *Advanced Ultrasound in Diagnosis and Therapy*.
-- Aug 27, 2024: *Mamba2MIL* was released as an arXiv preprint on computational pathology.
-
-## Links
-
-- [Research](/research/)
-- [Publications](/publications/)
-- [CV](/cv/)
-- [Google Scholar](https://scholar.google.co.jp/citations?user=maQlQdIAAAAJ&hl=zh-CN)
-- [ORCID](https://orcid.org/0009-0004-5587-2188)
-- [GitHub](https://github.com/Xiaoqian-Zhang-Shawno)
+<section class="showcase-contact" aria-labelledby="contact-title"><div><p class="showcase-caption">Start a conversation</p><h2 id="contact-title">Shared questions.<br>Better research.</h2><p>Interested in medical imaging, representation learning, or tools for research? Let’s talk.</p><a class="showcase-contact-email" href="mailto:xiaoqian_shawno@sjtu.edu.cn">xiaoqian_shawno@sjtu.edu.cn <span aria-hidden="true">↗</span></a></div><div class="showcase-contact-links"><a href="https://github.com/Xiaoqian-Zhang-Shawno">GitHub</a><a href="https://scholar.google.co.jp/citations?user=maQlQdIAAAAJ&amp;hl=zh-CN">Google Scholar</a><a href="https://orcid.org/0009-0004-5587-2188">ORCID</a></div></section>
