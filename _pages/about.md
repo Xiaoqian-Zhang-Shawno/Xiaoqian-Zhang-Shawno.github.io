@@ -30,17 +30,17 @@ redirect_from:
       <div class="showcase-work-preview-heading"><h2 id="work-preview-title">Selected work</h2><span>Papers &amp; systems</span></div>
       <a class="showcase-work-preview-item" href="/publication/2026-01-23-vqpet/">
         <div class="showcase-work-preview-meta"><span>Journal article</span><span>2026</span></div>
-        <h3>IEEE TMI — VQPET <span aria-hidden="true">↗</span></h3>
+        <h3><span class="showcase-work-title"><span class="work-badge work-badge--journal" aria-label="Journal: IEEE TMI">IEEE TMI</span><span>— VQPET</span></span><span aria-hidden="true">↗</span></h3>
         <p>Learning codebook priors for PET image synthesis.</p>
       </a>
       <a class="showcase-work-preview-item" href="/publication/2026-03-01-momil/">
         <div class="showcase-work-preview-meta"><span>Journal article</span><span>2026</span></div>
-        <h3>IVC — MoMIL <span aria-hidden="true">↗</span></h3>
+        <h3><span class="showcase-work-title"><span class="work-badge work-badge--journal" aria-label="Journal: Image and Vision Computing">IVC</span><span>— MoMIL</span></span><span aria-hidden="true">↗</span></h3>
         <p>Multiple instance learning for whole-slide pathology.</p>
       </a>
       <a class="showcase-work-preview-item" href="https://github.com/Xiaoqian-Zhang-Shawno/ShawnoBot">
         <div class="showcase-work-preview-meta"><span>Open-source system</span><span>Python</span></div>
-        <h3>Repo — ShawnoBot <span aria-hidden="true">↗</span></h3>
+        <h3><span class="showcase-work-title"><span class="work-badge work-badge--repo">Repo</span><span>— ShawnoBot</span></span><span aria-hidden="true">↗</span></h3>
         <p>A controlled gateway to the research workstation.</p>
       </a>
     </section>

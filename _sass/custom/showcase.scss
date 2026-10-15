@@ -59,7 +59,7 @@ body:has(.profile-home) { background: var(--showcase-bg); }
 .profile-home .showcase-work-preview-item:hover { color: #82dfdf; }
 .showcase-work-preview-meta { display: flex; justify-content: space-between; gap: 14px; font-size: 11px; color: #b9cde6; }
 .profile-home .showcase-work-preview h3 { color: inherit; display: flex; justify-content: space-between; gap: 12px; font-size: 26px; letter-spacing: -.025em; margin: 8px 0; }
-.showcase-work-preview h3 > span { color: #82dfdf; font-size: 20px; }
+.showcase-work-preview h3 > span[aria-hidden] { color: #82dfdf; font-size: 20px; }
 .profile-home .showcase-work-preview p { color: #c1d1e6; font-size: 12px; line-height: 1.6; }
 .showcase-work-preview-item:focus-visible { outline-color: #82dfdf !important; }
 .showcase-index { border-top: 1px solid var(--showcase-line); border-bottom: 1px solid var(--showcase-line); display: grid; grid-template-columns: repeat(4,minmax(0,1fr)); }
@@ -147,3 +147,10 @@ body:has(.profile-home) .page__footer { background: var(--showcase-bg); border-t
   .profile-home .showcase-bio { font-size: 14px; }
 }
 @media(prefers-reduced-motion: reduce) { body:has(.profile-home) * { scroll-behavior: auto !important; animation: none !important; transition: none !important; } }
+
+// Source labels keep category information in text as well as color.
+.showcase-work-title { display: flex; align-items: center; flex-wrap: wrap; gap: 8px; min-width: 0; }
+.profile-home .work-badge { display: inline-flex; align-items: center; border: 1px solid; border-radius: 6px; padding: 5px 9px; font-size: 13px; line-height: 1.25; font-weight: 650; letter-spacing: 0; white-space: nowrap; }
+.work-badge--journal { color: #bdd7ff; background: #193f71; border-color: #729bd7; }
+.work-badge--conference { color: #e5d0ff; background: #443268; border-color: #b394d9; }
+.work-badge--repo { color: #a3eee0; background: #16494b; border-color: #60b8ae; }
