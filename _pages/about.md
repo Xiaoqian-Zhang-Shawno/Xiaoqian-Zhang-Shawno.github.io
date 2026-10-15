@@ -26,18 +26,24 @@ redirect_from:
       <img src="/images/xiaoqian-zhang-2026.jpg" width="104" height="104" alt="Portrait of Xiaoqian Zhang" fetchpriority="high">
       <div><strong>Research &amp; engineering</strong><span>Medical imaging · Machine learning</span></div>
     </div>
-    <div class="showcase-map" aria-label="Research themes: medical images, learned representations, and medical understanding">
-      <div class="showcase-map-top"><span>Images to understanding</span><span aria-hidden="true">↗</span></div>
-      <svg viewBox="0 0 460 280" role="img" aria-labelledby="map-title"><title id="map-title">Conceptual illustration of image patches connecting to learned representations</title>
-        <defs><linearGradient id="map-field" x2="1" y2="1"><stop stop-color="#174d9c"/><stop offset="1" stop-color="#43c8d3"/></linearGradient></defs>
-        <g fill="none" stroke="#779aba" stroke-width="1" opacity=".35"><path d="M65 83L224 54 378 99 226 224Z"/><path d="M65 83L221 133 378 99M224 54L221 133 226 224M65 83L226 224M224 54L378 99"/><ellipse cx="228" cy="138" rx="185" ry="102" transform="rotate(-16 228 138)"/></g>
-        <g transform="translate(35 56) rotate(-12 45 45)" fill="url(#map-field)"><rect width="23" height="23" rx="4"/><rect x="29" width="23" height="23" rx="4" opacity=".6"/><rect x="58" width="23" height="23" rx="4" opacity=".85"/><rect y="29" width="23" height="23" rx="4" opacity=".65"/><rect x="29" y="29" width="23" height="23" rx="4"/><rect x="58" y="29" width="23" height="23" rx="4" opacity=".5"/><rect y="58" width="23" height="23" rx="4" opacity=".8"/><rect x="29" y="58" width="23" height="23" rx="4" opacity=".5"/><rect x="58" y="58" width="23" height="23" rx="4"/></g>
-        <g fill="#82dfdf" stroke="#122f53" stroke-width="8"><circle cx="224" cy="54" r="12"/><circle cx="221" cy="133" r="23"/><circle cx="226" cy="224" r="10"/><circle cx="378" cy="99" r="17"/></g>
-        <g fill="#b9d1e8"><circle cx="145" cy="184" r="4"/><circle cx="323" cy="188" r="4"/><circle cx="305" cy="54" r="3"/></g>
-      </svg>
-      <div class="showcase-map-labels"><span>Medical images</span><span>Representations</span><span>Understanding</span></div>
-    </div>
-    <p class="showcase-visual-note">Computational pathology / PET synthesis / Multimodal imaging</p>
+    <section class="showcase-work-preview" aria-labelledby="work-preview-title">
+      <div class="showcase-work-preview-heading"><h2 id="work-preview-title">Selected work</h2><span>Papers &amp; systems</span></div>
+      <a class="showcase-work-preview-item" href="/publication/2026-01-23-vqpet/">
+        <div class="showcase-work-preview-meta"><span>IEEE TMI</span><span>2026</span></div>
+        <h3>VQPET <span aria-hidden="true">↗</span></h3>
+        <p>Learning codebook priors for PET image synthesis.</p>
+      </a>
+      <a class="showcase-work-preview-item" href="/publication/2026-03-01-momil/">
+        <div class="showcase-work-preview-meta"><span>Image and Vision Computing</span><span>2026</span></div>
+        <h3>MoMIL <span aria-hidden="true">↗</span></h3>
+        <p>Multiple instance learning for whole-slide pathology.</p>
+      </a>
+      <a class="showcase-work-preview-item" href="https://github.com/Xiaoqian-Zhang-Shawno/ShawnoBot">
+        <div class="showcase-work-preview-meta"><span>Open-source system</span><span>Python</span></div>
+        <h3>ShawnoBot <span aria-hidden="true">↗</span></h3>
+        <p>A controlled gateway to the research workstation.</p>
+      </a>
+    </section>
   </div>
 </section>
 
