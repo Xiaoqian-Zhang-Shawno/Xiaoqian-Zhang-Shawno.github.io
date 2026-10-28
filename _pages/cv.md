@@ -23,6 +23,14 @@ Research Interests
 * 3D perception algorithms
 * Medical image analysis and spatial understanding
 
+Industry Experience
+======
+* Algorithm Intern, Momenta — Autonomous Driving
+  * Oct 2025 - Dec 2025
+  * Adapted BEVFormer inference and evaluation entry points for road-scene 3D detection; designed data audits, calibration-projection checks, and scenario-based analysis workflows.
+  * Defined timestamp indexing, cache-reset procedures, and regression checks for abnormal temporal-history updates.
+  * Standardized traceability across configurations, logs, and predictions for reproducible perception evaluation and engineering handoff.
+
 Research Experience
 ======
 * Research Intern, BGI Research Institute (华大研究院), Beijing, China  

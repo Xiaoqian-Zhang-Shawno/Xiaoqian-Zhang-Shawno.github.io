@@ -89,6 +89,7 @@ redirect_from:
     <article><span>2021–2025</span><h3>Beihang University</h3><p>B.E. in Biomedical Engineering</p></article>
     <article><span>Jun–Nov 2024</span><h3>BGI Research Institute</h3><p>Research internship · Spatial transcriptomics, tissue annotation, and image segmentation</p></article>
     <article><span>2025–2028 · Expected</span><h3>Shanghai Jiao Tong University</h3><p>M.S. in Medical Imaging Technology<br>School of Medical Technology</p></article>
+    <article><span>Oct–Dec 2025</span><h3>Momenta</h3><p>Algorithm Intern · Multi-camera BEV perception, 3D detection evaluation, calibration checks, and temporal-state validation</p></article>
     <article><span>Jul–Dec 2026 · Expected completion</span><h3>United Imaging Surgical</h3><p>Internship · Multi-view endoscopic reconstruction and research engineering</p></article>
   </div>
 </section>
